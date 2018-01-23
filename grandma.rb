@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(say)
-  if say == say.capitalize
+  if say == "#{say.capitalize}"
     "NO, NOT SINCE 1938!"
   elsif say == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
